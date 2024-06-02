@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>✧˖°Book Haven°˖✧</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <head>
+    <!-- Other head elements -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  </head>
+  
+  <style>
+    .navbar-custom {
+      background-color: #343a40; /* Dark background color */
+    }
+    .navbar-custom .navbar-brand,
+    .navbar-custom .nav-link,
+    .navbar-custom .navbar-toggler-icon {
+      color: #ffffff; /* White font color */
+    }
+    .navbar-nav .nav-link {
+      font-size: 1.1rem; /* Increased font size */
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-custom">
+  <a class="navbar-brand" href="#">✧˖°Book Haven°˖✧</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">Books</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+
+  <!-- Carousel -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="https://i.pinimg.com/originals/ba/af/fa/baaffae3e5b1f74a1d3f5e20c92c120c.jpg" alt="First slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h4 style="color: black;">Enhancing Vocabulary and Language Skills</h4>
+          <h6 style="color: black;">Regular reading improves vocabulary, comprehension, and language proficiency.</h6>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="https://wallpaperaccess.com/thumb/1771644.jpg" alt="Second slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h4 style="color: black;">Providing Knowledge and Information</h4>
+          <h6 style="color: black;">Non-fiction books are valuable resources for learning about specific subjects, such as history, science, technology, and self-help.</h6>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="https://i.pinimg.com/originals/95/fc/9d/95fc9d6faecd2ecc13b1179ae07b3755.jpg" alt="Third slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h4 style="color: black;">Promoting Empathy and Emotional Intelligence</h4>
+          <h6 style="color: black;">Literature, particularly fiction, helps readers understand and empathize with others' emotions and experiences.</h6>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  <section class="featured-section">
+    <div class="container">
+        <h3>✧˖°..............Featured Books..............°˖✧</h3>
+    </div>
+</section>
+
+  <!-- Book Cards -->
+  <div class="container my-4" id="cardContainer">
+    <div class="row">
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card card-small">
+          <img src="https://www.scrolldroll.com/wp-content/uploads/2021/07/the-hobbit-best-selling-books-of-all-time.jpg" class="card-img-top book-img" alt="Book Cover">
+          <div class="card-body">
+            <h5 class="card-title">The Hobbit</h5>
+            <p class="card-text">By J.R.R Tolkien</p>
+            <p class="card-text">Price: ₹500.99</p>
+            <a href="#" class="btn btn-primary" style="background-color: #28a745; color: white; border: none;">Add to Cart</a>
+            <a href="#" class="btn btn-secondary">View Details</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card card-small">
+          <img src="https://oversixtydev.blob.core.windows.net/media/31431/5.jpg" class="card-img-top book-img" alt="Book Cover">
+          <div class="card-body">
+            <h5 class="card-title">To Kill A Mockingbird</h5>
+            <p class="card-text">By Harper Lee</p>
+            <p class="card-text">Price: ₹550.99</p>
+            <a href="#" class="btn btn-primary" style="background-color: #28a745; color: white; border: none;">Add to Cart</a>
+            <a href="#" class="btn btn-secondary">View Details</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card card-small">
+          <img src="https://www.skipprichard.com/wp-content/uploads/2018/12/9781501180989.jpg" class="card-img-top book-img" alt="Book Cover">
+          <div class="card-body">
+            <h5 class="card-title">The Outsider</h5>
+            <p class="card-text">By Stephen King</p>
+            <p class="card-text">Price: ₹600.99</p>
+            <a href="#" class="btn btn-primary" style="background-color: #28a745; color: white; border: none;">Add to Cart</a>
+            <a href="#" class="btn btn-secondary">View Details</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card card-small">
+          <img src="https://images.squarespace-cdn.com/content/v1/59e235dcd7bdcec81eb68962/1575923349583-5KH4TDVO8RXU4XBNSI0M/ke17ZwdGBToddI8pDm48kD755XqWqn8HkRX8WSTt5GJ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1URwn7vetbNoOrjGqAVoZN5bz1XPY0_Ev1nDpBBPOnwUda4oDI66FEaoPF3aKRzQZjg/Historical+Fiction+Where+the+Light+Enters+by+Sara+Donati.jpg" class="card-img-top book-img" alt="Book Cover">
+          <div class="card-body">
+            <h5 class="card-title">Where The Light Enters</h5>
+            <p class="card-text">By Sara Donati</p>
+            <p class="card-text">Price: ₹650.99</p>
+            <a href="#" class="btn btn-primary" style="background-color: #28a745; color: white; border: none;">Add to Cart</a>
+            <a href="#" class="btn btn-secondary">View Details</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card card-small">
+          <img src="https://img.apmcdn.org/c64317cfb8ba136d85a160d432f64275b246be6b/uncropped/7486fa-20150304-greatgatsby.gif" class="card-img-top book-img" alt="Book Cover">
+          <div class="card-body">
+            <h5 class="card-title">The Great Gatsby</h5>
+            <p class="card-text">By F. Fitzgerald</p>
+            <p class="card-text">Price: ₹700.99</p>
+            <a href="#" class="btn btn-primary" style="background-color: #28a745; color: white; border: none;">Add to Cart</a>
+            <a href="#" class="btn btn-secondary">View Details</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card card-small">
+          <img src="https://hachette.imgix.net/books/9781444935189.jpg?auto=compress,format" class="card-img-top book-img" alt="Book Cover">
+          <div class="card-body">
+            <h5 class="card-title">The Famous Five</h5>
+            <p class="card-text">By Enid Blyton</p>
+            <p class="card-text">Price: ₹750.99</p>
+            <a href="#" class="btn btn-primary" style="background-color: #28a745; color: white; border: none;">Add to Cart</a>
+            <a href="#" class="btn btn-secondary">View Details</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card card-small">
+          <img src="https://tse2.mm.bing.net/th?id=OIP.qYlKFI29yIT0hE_Q51EodQHaLq&pid=Api&P=0&h=180" class="card-img-top book-img" alt="Book Cover">
+          <div class="card-body">
+            <h5 class="card-title">The Hound Of The Baskervilles</h5>
+            <p class="card-text">By Conan Doyle</p>
+            <p class="card-text">Price: ₹800.99</p>
+            <a href="#" class="btn btn-primary" style="background-color: #28a745; color: white; border: none;">Add to Cart</a>
+            <a href="#" class="btn btn-secondary">View Details</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card card-small">
+          <img src="https://media.timeout.com/images/103436969/image.jpg" class="card-img-top book-img" alt="Book Cover">
+          <div class="card-body">
+            <h5 class="card-title">Roald Dahl Matilda</h5>
+            <p class="card-text">By Quentin Blake</p>
+            <p class="card-text">Price: ₹900.99</p>
+            <a href="#" class="btn btn-primary" style="background-color: #28a745; color: white; border: none;">Add to Cart</a>
+            <a href="#" class="btn btn-secondary">View Details</a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer bg-light">
+    <div class="container text-center">
+      <p>✧˖°✧˖°✧˖°✧˖°✧˖°✧˖°✧˖°✧˖°✧˖°✧˖°✧˖°✧˖°✧˖°✧˖°✧˖°</p>
+      <span class="text-muted">&copy 2020 ✧˖°Book Haven°˖✧. All rights reserved.</span>
+      <ul class="list-inline">
+        <li class="list-inline-item">
+          <a href="https://www.facebook.com" target="_blank">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://wa.me/yourphonenumber" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://www.instagram.com" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+      </ul>
+      <p>✧˖°✧˖°✧˖°✧˖°✧˖°✧˖°✧˖°✧˖°✧˖°✧˖°✧˖°✧˖°✧˖°✧˖°✧˖°</p>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

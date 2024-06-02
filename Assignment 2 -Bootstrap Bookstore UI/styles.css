@@ -1,0 +1,88 @@
+.carousel-item img {
+    height: 300px;
+    object-fit:fill;
+    width: 100%;
+}
+
+.card {
+    transition: transform 0.2s, opacity 1s;
+    opacity: 0;
+    transform: translateY(50px);
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.card.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.book-img {
+    height: 350px;
+    object-fit: fill;
+}
+
+.footer .list-inline {
+    margin-top: 10px;
+}
+
+.footer .list-inline-item {
+    margin: 0 10px;
+}
+
+.footer .list-inline-item a {
+    color: #6c757d;
+}
+
+.footer .list-inline-item a:hover {
+    color: #343a40;
+    text-decoration: none;
+}
+
+.card-small {
+    max-width: 100%;
+    margin: auto;
+}
+
+.card-small .card-body {
+    padding: 0.5rem;
+}
+
+.card-small .card-title {
+    font-size: 1rem;
+}
+
+.card-small .card-text {
+    font-size: 0.875rem;
+}
+
+.featured-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.btn-add-to-cart {
+    background-color: #28a745; 
+    color: white;
+    border: none;
+    padding: 10px 20px; 
+    text-transform: uppercase; 
+    font-weight: bold; 
+    transition: background-color 0.3s ease; 
+}
+
+.btn-add-to-cart:hover {
+    background-color: #218838;
+    text-decoration: none;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
